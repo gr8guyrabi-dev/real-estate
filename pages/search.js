@@ -12,7 +12,6 @@ import { fetchApi, baseUrl } from '../utils/fetchApi'
 
 const Search = ({ properties }) => {
     const [searchFilters, setSearchFilters] = useState(false)
-    // comment
     const router = useRouter()
 
     return (
